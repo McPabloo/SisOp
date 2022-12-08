@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactanos</title>
+  <link rel="stylesheet" href="/css/contact.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div id="header-div">
+    <ul class="navbar bg-negro mb-0 sticky-top">
+        <div id="nav1">
+            <li class="nav-item">
+                <nav class="navbar bg-main ms-1">
+                    <div class="container-fluid">
+
+                      <!-- Example split danger button -->
+                      <div class="btn-group">
+                        <a class="navbar-brand text-blanco" href="/book-life">
+                          <img src="/assets/logo.jpeg" alt="BookLife" class="text-blanco d-inline-block align-text-top">
+                        </a>
+                        
+        
+        
+                    </div>
+                  </nav>
+                </li> 
+                    </div>
+                </nav>
+            </li>  
+        
+        </div>   
+    </ul>
+</div>
+
+<section class="form_wrap">
+
+  <section class="cantact_info">
+      <section class="info_title">
+          <span class="fa fa-user-circle"></span>
+          <h2>INFORMACION<br>DE CONTACTO</h2>
+      </section>
+      <section class="info_items">
+          <p><span class="fa fa-envelope"></span> BookLife@gmail.com</p>
+          <p><span class="fa fa-mobile"></span> +52 449 399 88 90</p>
+      </section>
+  </section>
+
+  <form action="" class="form_contact">
+      <h2>Envia un mensaje</h2>
+      <div class="user_info">
+          <label for="nombre" class="colocar_nombre">Nombre
+              <span class="obligatorio">*</span>
+            </label>
+              <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+
+              <label for="telefone" class="colocar_telefono">Teléfono
+              </label>
+                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+
+                <label for="email" class="colocar_email">Email
+                  <span class="obligatorio">*</span>
+                </label>
+                  <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+
+          <label for="mensaje" class="colocar_mensaje">Mensaje 
+              <span class="obligatorio">*</span>
+          </label>
+          <textarea id="mensaje" placeholder="Deja aquí tu comentario..."></textarea>
+
+          <input type="button" value="Enviar Mensaje" id="btnSend">
+          <p class="aviso">
+                <span class="obligatorio"> * </span>Los campos son obligatorios.
+              </p>   
+      </div>
+
+  </form>
+
+</section>
+
+</body>
+
+</html>
